@@ -39,7 +39,7 @@ function App() {
     <div className="App">
       <div className="header-container">
         <h3 className="city">{city}</h3>
-        <p className="instructions">{!city ? 'Search location for 5 day forecast below' : null}</p>
+        <p className="instructions">{!city ? 'Search location for a 5 day forecast below' : null}</p>
         <input 
           type="text"
           className="search-box"
